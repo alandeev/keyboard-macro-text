@@ -1,0 +1,13 @@
+{
+  "name": "keyevent",
+  "version": "1.0.0",
+  "main": ".src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src"
+  },
+  "dependencies": {
+    "iohook": "^0.7.2",
+    "node-key-sender": "^1.0.11"
+  }
+}

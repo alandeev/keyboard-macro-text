@@ -1,0 +1,18 @@
+[
+  {
+    "description": "Macro to send /",
+    "shiftKey": false,
+    "altKey": true,
+    "ctrlKey": false,
+    "rawcode": 81,
+    "sendCode": "@92"
+  },
+  {
+    "description": "Macro to send |",
+    "shiftKey": false,
+    "altKey": true,
+    "ctrlKey": false,
+    "rawcode": 90,
+    "sendCode": "shift-@92" 
+  }
+]
