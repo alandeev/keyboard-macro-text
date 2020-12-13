@@ -17,10 +17,6 @@ function findKeyMacroWithKeyPress({ shiftKey, altKey, ctrlKey, rawcode }){
 
 ks.setKeyboardLayout('slash');
 
-function teste(){
- ks.sendKey("@92");
-}
-
 ioHook.on('keypress', async (keyPress) => {
   const findedKey = findKeyMacroWithKeyPress(keyPress);
 
